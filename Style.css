@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    
+    height: 80px;
+}
+
+.container h1{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    background-color: #D2E0FB;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+
+}
+
+#d1 {
+    flex-shrink: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 40px;
+    float: right;
+    font-family: 'Wix Madefor Display', sans-serif;
+
+}
+
+li {
+    display: inline;
+    font-size: 23px;
+    padding-right: 50px;
+    
+}
+
+li a:hover {
+    background-color: #D2E0FB;
+    
+}
+
+li a{
+    text-decoration:none;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* show-container */
+.show-container{
+    display: flex;
+    flex-direction: column;
+    background-image:url("./cyber-defence_mittig.png");
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.show-container h1{
+    font-size:85px;
+    color: white;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding-top: 300px;
+    padding-left: 100px;
+       
+
+}
+.show-container h4 {
+    color: white;
+    font-size: 35px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    padding-left: 160px;
+    margin-top: 30px;
+}
+
+.object-container{
+    
+    height: 80px;
+}
+
+.object-container hr{
+    width: 90%;
+    margin-left: 5%;
+    opacity: 20%;
+}
+
+.object-container h3{
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    
+}
+
+.object-text{
+    display: flex;
+    height: 380px;
+}
+
+.object-text img{
+    
+    border-radius: 50%;
+    height: 300px;
+}
+
+.more-pic{
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #D2E0FB;
+    border-color: #D2E0FB;
+    border-style: none;
+    border-radius: 5px;
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.more-pic a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+#heart img{
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+
+
+@media (max-width: 800px) {
+
+    #d3 {
+        display: none;
+            }
+        #d1{
+            display: flex;
+            justify-content: flex-start;
+           
+        }
+        .show-container h4 {
+            padding-left: 100px;
+        }
+        .show-container h1{
+
+        }
+}
